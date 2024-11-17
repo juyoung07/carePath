@@ -18,6 +18,7 @@ iframe {
     position: relative;
     top: -200px;
     margin-left: 70px;
+    cursor: pointer;
 }
 
 footer {
