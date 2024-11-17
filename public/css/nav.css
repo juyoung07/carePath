@@ -1,0 +1,14 @@
+header {
+    width: 100%;
+    max-width: 1080px;
+    height: 200px;
+    background-color: var(--mainOrange);
+}
+
+header p {
+    color: var(--Color-Grey-white, #FFF);
+    font-family: Tenada;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 122px 0 30px 40px;
+}

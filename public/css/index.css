@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    max-width: 1080px;
+    height: 1920px;
+}
+
+main {
+    margin-top: 519px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-container {
+    text-align: center;
+}
+
+.main-title {
+    color: var(--Color-Black-1000, #020202);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.brand-name {
+    color: var(--Color-Primary-500, #FF6500);
+    font-family: Tenada;
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.introduce>p {
+    color: var(--Color-Black-opacity-64, rgba(2, 2, 2, 0.64));
+    text-align: center;
+    font-size: 32px;
+}
+
+.introduce {
+    margin: 70px 0 163px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 180px;
+}
+
+.choose-card {
+    width: 405px;
+    height: 440px;
+    border-radius: 30px;
+    border: 1px solid var(--Color-Grey-900, #E5E5E5);
+    background: var(--Color-Grey-white, #FFF);
+    box-shadow: 0px 14px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 50px 0 0 50px;
+    cursor: pointer;
+}
+
+.card-title {
+    color: var(--Color-Grey-200, #333);
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.card-text {
+    color: var(--Color-Grey-400, #666);
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-icon img {
+    width: 100px;
+    height: 110px;
+    margin-right: 50px;
+}
+
+.information-icon img {
+    height: 100px;
+}
+
+.text1 {
+    margin-bottom: 100px;
+}
+
+.text2 {
+    margin-bottom: 33px;
+}
