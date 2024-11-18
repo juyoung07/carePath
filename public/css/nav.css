@@ -3,6 +3,9 @@ header {
     max-width: 1080px;
     height: 200px;
     background-color: var(--mainOrange);
+    display: flex;
+    gap: 650px;
+    padding: 102px 0 34px 70px;
 }
 
 header p {
@@ -10,5 +13,10 @@ header p {
     font-family: Tenada;
     font-size: 48px;
     font-weight: 800;
-    padding: 122px 0 30px 40px;
+
+}
+
+header img {
+    width: 67px;
+    height: 60px;
 }

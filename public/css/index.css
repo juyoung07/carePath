@@ -54,7 +54,7 @@ main {
     border-radius: 30px;
     border: 1px solid var(--Color-Grey-900, #E5E5E5);
     background: var(--Color-Grey-white, #FFF);
-    box-shadow: 0px 14px 10px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 14px 10px 0px rgba(0, 0, 0, 0.05);
     padding: 50px 0 0 50px;
     cursor: pointer;
 }
@@ -80,17 +80,18 @@ main {
 }
 
 .card-icon img {
-    width: 100px;
-    height: 110px;
+    width: 159px;
+    height: 169px;
     margin-right: 50px;
 }
 
 .information-icon img {
-    height: 100px;
+    width: 139px;
+    height: 139px;
 }
 
 .text1 {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .text2 {
