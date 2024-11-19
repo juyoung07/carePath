@@ -5,35 +5,30 @@ main {
     align-items: center;
 }
 
-.search-container {
-    display: flex;
-    width: 980px;
-    height: 60px;
-    padding: 8px 22px;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 50px;
-    background: var(--Color-Grey-white, #FFF);
-    box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.05), 0px 6px 4px 0px rgba(0, 0, 0, 0.15);
+.goBack-btn {
+    position: absolute;
+    top: 14%;
+    left: 80px;
 }
 
-input {
-    border: none;
-    outline: none;
-    width: 800px;
-    font-size: 20px;
-}
 
-.search-container img {
-    width: 44px;
-    height: 44px;
+
+.goBack-btn img {
+    width: 30px;
+    height: 52px;
 }
 
 .question {
     color: var(--Color-Black-1000, #020202);
     font-size: 64px;
     font-weight: 400;
-    margin: 120px 0 50px -150px;
+    margin: 176px 0 48px -450px;
+    display: flex;
+    flex-direction: column;
+}
+
+strong {
+    color: var(--Color-Primary-500, #FF6500);
 }
 
 /* 일러스트 로고 밑에 margin */
@@ -60,12 +55,13 @@ input {
 }
 
 .choose-card {
-    width: 405px;
-    height: 440px;
+    width: 410px;
+    height: 257px;
     border-radius: 30px;
-    background: var(--Color-Primary-600, #FF8433);
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    padding: 40px 0 0 40px;
+    border: 1px solid var(--Color-Grey-900, #E5E5E5);
+    background: var(--Color-Grey-white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    padding: 50px 0 0 46px;
 }
 
 .title1 {
@@ -77,13 +73,13 @@ input {
 }
 
 .card-title {
-
+    color: var(--Color-Grey-100, #1A1A1A);
     font-size: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .card-text {
-
+    color: var(--Color-Grey-400, #666);
     font-size: 20px;
 }
 
@@ -103,7 +99,9 @@ input {
 }
 
 .text1 {
+
     margin-bottom: 100px;
+    /*임시*/
 }
 
 .text2 {
