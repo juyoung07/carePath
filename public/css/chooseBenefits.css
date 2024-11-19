@@ -5,40 +5,51 @@ main {
     align-items: center;
 }
 
-.search-container {
+.goBack-btn {
+    position: absolute;
+    top: 14%;
+    left: 80px;
+}
+
+.goBack-btn img {
+    width: 30px;
+    height: 52px;
+}
+
+.question-container {
     display: flex;
-    width: 980px;
-    height: 60px;
-    padding: 8px 22px;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 50px;
-    background: var(--Color-Grey-white, #FFF);
-    box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.05), 0px 6px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 152px 0 0 -10%;
+    gap: 50px;
 }
 
-input {
-    border: none;
-    outline: none;
-    width: 800px;
-    font-size: 20px;
-}
-
-.search-container img {
-    width: 44px;
-    height: 44px;
+.question-container img {
+    width: 232px;
+    height: 232px;
+    position: relative;
+    top: -35px;
+    right: -120px;
 }
 
 .question {
     color: var(--Color-Black-1000, #020202);
     font-size: 64px;
     font-weight: 400;
-    margin: 68px 0 50px -37%;
+}
+
+.question strong {
+    color: var(--Color-Primary-500, #FF6500);
 }
 
 .q1 {
     margin-left: -10%;
+    margin: 150px 0 0 -10%;
 }
+
+.q2 {
+    margin-left: -25%;
+}
+
+
 
 /* 일러스트 로고 밑에 margin */
 .icon {
@@ -61,14 +72,16 @@ input {
     align-items: center;
     gap: 25px;
     color: #FFF;
+    margin-bottom: 150px;
 }
 
 .choose-main-card {
     width: 840px;
     height: 260px;
     border-radius: 30px;
-    border-radius: 30px;
-    background: var(--Color-Primary-500-opacity-80, rgba(255, 101, 0, 0.80));
+    border: 1px solid var(--Color-Grey-900, #E5E5E5);
+    background: var(--Color-Grey-white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
     padding: 45px 0 0 45px;
 }
 
@@ -79,6 +92,7 @@ input {
 .card-title {
     font-size: 40px;
     margin-bottom: 25px;
+    color: var(--Color-Grey-100, #1A1A1A);
 }
 
 .card-text {
@@ -102,21 +116,7 @@ input {
 
 .text1 {
     margin-bottom: 100px;
-}
-
-.back {
-    display: flex;
-    width: 850px;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    background-color: #FF8433;
-    border-radius: 20px;
-    background: var(--Color-Primary-600, #FF8433);
-    font-size: 32px;
-    color: #FFF;
-    margin: 45px 0 60px 0;
+    color: var(--Color-Grey-400, #666);
 }
 
 .choose-second-card,
@@ -134,18 +134,26 @@ input {
     padding: 50px 0 0 46px;
     width: 410px;
     height: 257px;
-    flex-shrink: 0;
     border-radius: 30px;
-    background: var(--Color-Primary-500-opacity-40, rgba(255, 101, 0, 0.40));
-
+    border: 1px solid var(--Color-Grey-900, #E5E5E5);
+    background: var(--Color-Grey-white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 h3 {
     font-size: 40px;
     margin: 0 150px 15px 0;
+    color: var(--Color-Grey-100, #1A1A1A);
+}
+
+.icon img {
+    width: 432px;
+    height: 432px;
+    margin-left: 20%;
 }
 
 .description {
+    color: var(--Color-Grey-400, #666);
     font-size: 20px;
 }
 
@@ -159,4 +167,18 @@ h3 {
 
 .sub-title {
     margin-right: 410px;
+}
+
+.sub-container {
+    margin-bottom: 50px;
+}
+
+.home-icon {
+    width: 290px;
+    height: 288px;
+    margin: 10px 0 100px 40%;
+}
+
+.choose {
+    margin-bottom: 80px;
 }
