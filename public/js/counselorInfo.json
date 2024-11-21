@@ -1,0 +1,336 @@
+{
+    "psychologyCenters": [
+        {
+            "id": "1",
+            "centerName": "마음의 쉼터 심리상담센터",
+            "couselor": "김혜진",
+            "phoneNumber": "02-123-4567",
+            "address": "서울특별시 강남구 테헤란로 123, 5층",
+            "certification": [
+                "임상심리사 1급",
+                "청소년 상담사 2급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "2",
+            "centerName": "행복나무 상담센터",
+            "couselor": "이수영",
+            "phoneNumber": "051-234-5678",
+            "address": "부산광역시 해운대구 센텀로 45, 3층",
+            "certification": [
+                "상담심리사 2급",
+                "가족치료사"
+            ],
+            "weekdays": "10:00 - 19:00",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "3",
+            "centerName": "마음숲 힐링센터",
+            "couselor": "박민아",
+            "phoneNumber": "053-345-6789",
+            "address": "대구광역시 중구 동성로 77, 2층",
+            "certification": [
+                "놀이치료사",
+                "심리상담사 1급"
+            ],
+            "weekdays": "09:30 - 18:30",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "4",
+            "centerName": "함께하는 심리상담센터",
+            "couselor": "정우진",
+            "phoneNumber": "032-456-7890",
+            "address": "인천광역시 남동구 인하로 88, 4층",
+            "certification": [
+                "정신건강임상심리사",
+                "부부상담 전문가"
+            ],
+            "weekdays": "09:00 - 17:30",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "5",
+            "centerName": "온유 심리클리닉",
+            "couselor": "최은비",
+            "phoneNumber": "031-567-8901",
+            "address": "경기도 성남시 분당구 서현로 200, 6층",
+            "certification": [
+                "임상심리사 2급",
+                "아동발달상담사"
+            ],
+            "weekdays": "10:00 - 19:00",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "6",
+            "centerName": "마음나눔 심리센터",
+            "couselor": "윤서진",
+            "phoneNumber": "064-678-9012",
+            "address": "제주특별자치도 제주시 중앙로 100, 2층",
+            "certification": [
+                "미술치료사",
+                "심리상담사 1급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "7",
+            "centerName": "밝은마음 상담센터",
+            "couselor": "이정민",
+            "phoneNumber": "042-789-0123",
+            "address": "대전광역시 서구 둔산로 50, 3층",
+            "certification": [
+                "임상심리사 1급",
+                "청소년 상담사 3급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "8",
+            "centerName": "마음치유 심리상담소",
+            "couselor": "김다영",
+            "phoneNumber": "054-890-1234",
+            "address": "경상북도 포항시 북구 중앙로 88, 1층",
+            "certification": [
+                "놀이치료사",
+                "가족상담 전문가"
+            ],
+            "weekdays": "09:00 - 17:00",
+            "lunchTime": "12:00 - 13:00"
+        }
+    ],
+    "employment": [
+        {
+            "id": "1",
+            "centerName": "서울일자리센터",
+            "couselor": "김진욱",
+            "phoneNumber": "02-2133-1200",
+            "address": "서울특별시 중구 을지로 6 서울시청 본관 1층",
+            "education": "서울대학교 행정학과 졸업",
+            "certification": [
+                "직업상담사 1급",
+                "심리상담사 2급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "2",
+            "centerName": "한국청년활동진흥센터",
+            "couselor": "장혜련",
+            "phoneNumber": "051-888-6841",
+            "address": "부산광역시 연제구 중앙대로 1000 청년센터 3층",
+            "education": "부산대학교 사회복지학과 졸업",
+            "certification": [
+                "사회복지사 1급",
+                "청소년 상담사 1급"
+            ],
+            "weekdays": "09:30 - 18:30",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "3",
+            "centerName": "희망리턴패키지 지원센터",
+            "couselor": "권인숙",
+            "phoneNumber": "041-424-4000",
+            "address": "충청남도 천안시 서북구 불당대로 200 리턴빌딩 5층",
+            "education": "건국대학교 경영학과 졸업",
+            "certification": [
+                "중소기업컨설팅 전문가",
+                "직업상담사 2급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "4",
+            "centerName": "한국산업인력공단 취업지원센터",
+            "couselor": "박수혜",
+            "phoneNumber": "1644-8000",
+            "address": "울산광역시 중구 종가로 345 한국산업인력공단 본사",
+            "education": "울산대학교 경제학과 졸업",
+            "certification": [
+                "경력개발 컨설턴트",
+                "직업심리상담사"
+            ],
+            "weekdays": "09:00 - 17:30",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "5",
+            "centerName": "대구고용센터",
+            "couselor": "이형준",
+            "phoneNumber": "053-667-6000",
+            "address": "대구광역시 북구 태전로 123 대구고용센터 빌딩",
+            "education": "영남대학교 행정학과 졸업",
+            "certification": [
+                "직업상담사 2급",
+                "심리상담사 2급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "6",
+            "centerName": "서울고용복지플러스센터",
+            "couselor": "김가람",
+            "phoneNumber": "02-2004-7301",
+            "address": "서울특별시 강남구 테헤란로 305 서울고용복지센터 8층",
+            "education": "고려대학교 심리학과 졸업",
+            "certification": [
+                "심리상담사 1급",
+                "청소년상담사 2급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "7",
+            "centerName": "중소기업진흥공단 일자리센터",
+            "couselor": "도민권",
+            "phoneNumber": "055-751-9114",
+            "address": "경상남도 진주시 문산읍 동부로 400 중소기업진흥공단 본사",
+            "education": "경상대학교 경영학과 졸업",
+            "certification": [
+                "기업분석 전문가",
+                "중소기업상담사"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "8",
+            "centerName": "부산일자리종합센터",
+            "couselor": "송지연",
+            "phoneNumber": "051-888-6841",
+            "address": "부산광역시 연제구 중앙대로 1200 일자리센터 빌딩 2층",
+            "education": "동아대학교 국제통상학과 졸업",
+            "certification": [
+                "무역실무사",
+                "직업상담사 1급"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        }
+    ],
+    "housing": [
+        {
+            "id": "1",
+            "centerName": "서울시 주거안심종합센터",
+            "couselor": "주예은",
+            "phoneNumber": "02-2133-1200",
+            "address": "서울특별시 중구 세종대로 110 서울시청 본관 3층",
+            "education": "연세대학교 도시공학과 졸업",
+            "certification": [
+                "주거복지사 1급",
+                "부동산 공인중개사"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "2",
+            "centerName": "도봉구 주거복지센터",
+            "couselor": "신세라 실장",
+            "phoneNumber": "02-2091-3087",
+            "address": "서울특별시 도봉구 노해로 29길 73 도봉구청 별관 2층",
+            "education": "고려대학교 사회복지학과 졸업",
+            "certification": [
+                "사회복지사 2급",
+                "상담심리사 1급"
+            ],
+            "weekdays": "10:00 - 19:00",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "3",
+            "centerName": "부천시 주거복지센터",
+            "couselor": "최영주",
+            "phoneNumber": "032-625-8200",
+            "address": "경기도 부천시 부천로 1 부천시청 별관 1층",
+            "education": "서울시립대학교 부동산학과 졸업",
+            "certification": [
+                "부동산 공인중개사",
+                "임대주택관리사"
+            ],
+            "weekdays": "09:30 - 17:30",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "4",
+            "centerName": "서울 전월세 종합지원센터",
+            "couselor": "권혁진",
+            "phoneNumber": "02-2133-1200",
+            "address": "서울특별시 종로구 종로3길 15 서울시 전월세지원센터",
+            "education": "성균관대학교 경제학과 졸업",
+            "certification": [
+                "주택관리사",
+                "재무설계사"
+            ],
+            "weekdays": "08:30 - 17:30",
+            "lunchTime": "12:00 - 12:45"
+        },
+        {
+            "id": "5",
+            "centerName": "대구광역시 주거복지센터",
+            "couselor": "손우영",
+            "phoneNumber": "053-803-8665",
+            "address": "대구광역시 중구 중앙대로 200 대구시청 별관 4층",
+            "education": "영남대학교 도시계획학과 졸업",
+            "certification": [
+                "도시계획기사",
+                "건축기사"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "6",
+            "centerName": "수원시 주거복지센터",
+            "couselor": "박미진",
+            "phoneNumber": "031-228-3598",
+            "address": "경기도 수원시 팔달구 팔달로 104 수원시청 별관 2층",
+            "education": "경기대학교 건축학과 졸업",
+            "certification": [
+                "건축기사",
+                "에너지관리기사"
+            ],
+            "weekdays": "09:00 - 18:00",
+            "lunchTime": "12:00 - 13:00"
+        },
+        {
+            "id": "7",
+            "centerName": "성남시 복지센터",
+            "couselor": "원지우",
+            "phoneNumber": "031-729-2410",
+            "address": "경기도 성남시 분당구 탄천로 215 성남시복지회관 3층",
+            "education": "이화여자대학교 사회복지학과 졸업",
+            "certification": [
+                "임대주택관리사",
+                "심리상담사 2급"
+            ],
+            "weekdays": "09:30 - 18:30",
+            "lunchTime": "12:30 - 13:30"
+        },
+        {
+            "id": "8",
+            "centerName": "광주광역시 주거복지센터",
+            "couselor": "장현서",
+            "phoneNumber": "062-613-2094",
+            "address": "광주광역시 서구 내방로 111 광주광역시청 별관 5층",
+            "education": "전남대학교 부동산학과 졸업",
+            "certification": [
+                "부동산 컨설턴트",
+                "공인노무사"
+            ],
+            "weekdays": "09:00 - 17:00",
+            "lunchTime": "12:00 - 13:00"
+        }
+    ]
+}
