@@ -1,0 +1,43 @@
+.worryList-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.question-container {
+    width: 410px;
+    height: 206px;
+    border-radius: 30px;
+    border: 1px solid var(--Color-Grey-800, #CCC);
+    background: var(--Color-Grey-white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px 0 0 40px;
+}
+
+.question-container:hover {
+    border-radius: 30px;
+    border: 1px solid var(--Color-Primary-500, #FF6500);
+    background: var(--Color-Primary-opacity-10, rgba(255, 101, 0, 0.10));
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.question-container:hover .main-title {
+    color: var(--Color-Primary-500, #FF6500);
+}
+
+.main-title {
+    color: var(--Color-Grey-100, #1A1A1A);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sub-title {
+    color: var(--Color-Grey-400, #666);
+    font-size: 20px;
+}
+
+.sub-title-container {
+    margin-top: 20px;
+
+}
