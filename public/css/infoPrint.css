@@ -28,11 +28,21 @@ main {
     margin: 115px 0 125px 0;
 }
 
-.show-time {
+.progress-bar {
     width: 700px;
     height: 15px;
     background: var(--Color-Primary-900, #FFE0CC);
+    border-radius: 5px;
+    overflow: hidden;
     margin-bottom: 370px;
+}
+
+.progress {
+    width: 0%;
+    /*0 ~ 100까지 증가*/
+    height: 100%;
+    background: var(--Color-Primary-500, #FF6500);
+    transition: width 0.1s linear;
 }
 
 
