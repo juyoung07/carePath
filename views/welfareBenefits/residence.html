@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="/public/css/nav.css">
     <link rel="stylesheet" href="/public/css/chooseBenefits.css">
-    <link rel="stylesheet" href="/public/css/chooseOrgan.css">
     <link rel="stylesheet" href="/public/css/footer.css">
 
 <body>
@@ -23,22 +22,41 @@
         </div>
 
         <div class="question-container">
-            <h2 class="question"> 어떤 <strong>복지 혜택</strong>을 <br>찾고 계신가요?</h2>
-            <img src="/public/images/gift.png" alt="">
+            <h2 class="question qst"> 어떤 <strong>주거 시설 혜택</strong>을 <br>찾고 계신가요?</h2>
         </div>
+
+        <div class="person">
+            <img src="/public/images/person.png" alt="일러스트">
+        </div>
+
         <!-- 전체 card 컨테이너 -->
-        <div class="card-container">
-            <div class="choose-main-card" onclick="window.location.href='#'">
-                <div class="main-title">
-                    <h2 class="card-title title1">주거시설</h2>
-                    <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow"></a>
+        <div class="card-container card">
+            <div class="choose-third-card">
+                <div class="third-card">
+                    <div class="title-container">
+                        <h3 class="ment">임시주거지원<br>사업</h3>
+                        <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow"></a>
+                    </div>
+                    <span class="description">
+                        노숙 또는 노숙 위기 상황에 놓인<br>
+                        분들에게 고시원, 쪽방 등
+                        임시<br>주거지를 지원합니다!
+                    </span>
                 </div>
-                <p class="card-text text1">어디서 지내야 할지 고민과 걱정이 많으신 사용자님께<br>적합한 주거시설 헤택에 대해 알려드립니다!</p>
+
+                <div class="third-card">
+                    <div class="title-container">
+                        <h3 class="ment">매입임대주택<br>사업</h3>
+                        <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow"></a>
+                    </div>
+                    <span class="description">
+                        열악한 환경에서 생활하는 주거<br>취약계층에게 저렴한 임대주택을<br> 제공합니다!
+                    </span>
+                </div>
             </div>
         </div>
 
-        <div class="info-all-container">
-        </div>
+
     </main>
 
     <footer>
@@ -55,6 +73,5 @@
     </footer>
 
 </body>
-<script src="/public/js/chooseBenefits.js"></script>
 
 </html>

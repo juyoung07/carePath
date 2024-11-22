@@ -20,7 +20,7 @@ main {
     color: var(--Color-Black-1000, #020202);
     text-align: center;
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .brand-name {
