@@ -49,8 +49,6 @@ main {
     margin-left: -25%;
 }
 
-
-
 /* 일러스트 로고 밑에 margin */
 .icon {
     margin-bottom: 30px;
@@ -181,4 +179,28 @@ h3 {
 
 .choose {
     margin-bottom: 80px;
+}
+
+.person img {
+    width: 398px;
+    height: 398px;
+}
+
+.person {
+    position: relative;
+    top: 50%;
+    left: 20%;
+    margin-bottom: 80px;
+}
+
+.ment {
+    margin: 0 55px 15px 0;
+}
+
+.card {
+    margin-bottom: 318px;
+}
+
+.qst {
+    margin-left: -25%;
 }
