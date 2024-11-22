@@ -1,0 +1,131 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.2;
+    background: var(--Color-Grey-200, #333);
+    backdrop-filter: blur(8.399999618530273px);
+    z-index: -1;
+}
+
+.popup-container {
+    z-index: 10;
+    width: 850px;
+    height: 1200px;
+    border-radius: 30px;
+    background: var(--Color-Grey-white, #FFF);
+    margin: 328px 0 91px 0;
+    padding-left: 100px;
+}
+
+.x-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -13%;
+    left: 105%;
+}
+
+.profile {
+    margin-top: -40px;
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid black;
+}
+
+.profile img {
+    width: 250px;
+    height: 250px;
+}
+
+.profile-infos p:first-child {
+    color: var(--Color-Primary-opacity-60, rgba(255, 101, 0, 0.60));
+    font-size: 32px;
+}
+
+.profile-infos p:nth-child(2) {
+    color: var(--Color-Grey-100, #1A1A1A);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.profile-infos p:nth-child(3) {
+    color: var(--Color-Grey-400, #666);
+    font-size: 24px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 35px 0 68px 0;
+}
+
+.button {
+    color: var(--Color-Primary-500, #FF6500);
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid var(--Color-Primary-500, #FF6500);
+    padding: 10px 22px;
+}
+
+.counselor-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px 0 70px 0;
+}
+
+.time-info {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+.detail span {
+    width: 97px;
+}
+
+.full-time,
+.break-time {
+    margin-top: 40px;
+}
+
+.break-time {
+    margin-bottom: 40px;
+}
+
+.row,
+.detail {
+    white-space: nowrap;
+    display: flex;
+    column-gap: 64px;
+}
+
+.time-info span,
+.detail span {
+    color: var(--Color-Grey-100, #1A1A1A);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.time-info p,
+.detail p {
+    color: var(--Color-Grey-400, #666);
+    font-size: 28px;
+}
+
+.contact-button {
+    margin-left: 70px;
+}
+
+button {
+    border: none;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    background: var(--Color-Primary-600, #FF8433);
+    color: #fff;
+    font-size: 40px;
+}
