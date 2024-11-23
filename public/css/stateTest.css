@@ -25,6 +25,7 @@ main {
   text-align: center;
   font-size: 60px;
   font-weight: 600;
+  height: 150px;
 }
 
 .main-title-container strong {
@@ -40,9 +41,10 @@ main {
   background: var(--Color-Grey-900, #e5e5e5);
   margin-bottom: 30px;
 }
+
 .all-box {
   margin-top: 18px;
-  margin-bottom: 155px;
+  margin-bottom: 175px;
   font-size: 48px;
 }
 
@@ -53,5 +55,7 @@ main {
 }
 
 .testimg {
-  margin-bottom: 62px;
+  height: 256px;
+  width: 256px;
+  margin: 40px 0 85px 0;
 }
