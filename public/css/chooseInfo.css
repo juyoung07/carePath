@@ -29,9 +29,13 @@ strong {
     color: var(--Color-Primary-500, #FF6500);
 }
 
-/* 일러스트 로고 밑에 margin */
 .icon {
-    margin-bottom: 30px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 425px;
+    height: 448px;
+
 }
 
 .main-title {
@@ -60,10 +64,15 @@ strong {
     background: var(--Color-Grey-white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
     padding: 50px 0 0 46px;
+
 }
 
 .title1 {
     margin-right: 100px;
+}
+
+.vou {
+    margin-right: 500px;
 }
 
 .title2 {
@@ -119,4 +128,10 @@ strong {
     font-size: 32px;
     color: #FFF;
     margin: 45px 0 60px 0;
+}
+
+.voucher {
+    width: 840px;
+    height: 260px;
+    margin: 265px 0 25px 0;
 }

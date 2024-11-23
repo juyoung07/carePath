@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="/public/css/nav.css">
     <link rel="stylesheet" href="/public/css/chooseBenefits.css">
+    <link rel="stylesheet" href="/public/css/foodCenterMap.css">
     <link rel="stylesheet" href="/public/css/footer.css">
 
 <body>
@@ -17,53 +18,68 @@
     </header>
 
     <main>
-        <div class="goBack-btn">
-            <a href="/views/chooseInfo.html"><img src="/public/images/left-arrow.png" alt=""></a>
-        </div>
-        <h2 class="question q1 q2">어떤 <strong>시설 및 상담사</strong>를<br>
-            찾고 계신가요?</h2>
+        <div class="all-container">
+            <div class="goBack-btn">
+                <a href="/views/chooseInfo.html"><img src="/public/images/left-arrow.png" alt=""></a>
+            </div>
+            <h2 class="question q1 q2">어떤 <strong>시설 및 상담사</strong>를<br>
+                찾고 계신가요?</h2>
 
-        <div class="home-icon">
-            <img src="/public/images/home-icon.png" alt="일러스트">
-        </div>
+            <div class="home-icon">
+                <img src="/public/images/home-icon.png" alt="일러스트">
+            </div>
 
-        <!-- 전체 card 컨테이너 -->
-        <div class="card-container sub-container">
-            <div class="choose-main-card" onclick="window.location.href='#'">
+            <!-- 전체 card 컨테이너 -->
+            <div class="card-container sub-container">
+                <div class="choose-main-card" onclick="window.location.href='#'">
 
-                <div class="main-title">
                     <div class="main-title">
-                        <h2 class="card-title title1 sub-title">상담사 연결 서비스</h2>
-                        <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow"></a>
+                        <div class="main-title">
+                            <h2 class="card-title title1 sub-title">상담사 연결 서비스</h2>
+                            <a href="/views/counselor/stateTest.html"><img src="/public/images/right-arrow.png" alt=""
+                                    class="arrow"></a>
+                        </div>
+
+                    </div>
+                    <p class="card-text text1">사용자님에게 알맞는<br>상담사를 찾아드립니다!</p>
+                    <div class="card-icon information-icon"><img src="/public/images/setting-icon.png" alt=""></div>
+                </div>
+
+
+                <!-- 2번째 라인 -->
+                <div class="choose-second-card choose">
+                    <div class="second-card">
+                        <div class="title-container">
+                            <h3 class="sub1">생필품 배급소</h3>
+                            <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow ar1"></a>
+                        </div>
+                        <span class="description">주변 가장 가까운 생필품 배급소의<br>위치를 알려드립니다!</span>
                     </div>
 
+                    <div class="second-card">
+                        <div class="title-container">
+                            <h3 class="sub2">음식 배급소</h3>
+                            <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow ar2"></a>
+                        </div>
+                        <span class="description">주변 가장 가까운 음식 배급소의<br>위치를 알려드립니다!</span>
+                    </div>
                 </div>
-                <p class="card-text text1">사용자님에게 알맞는<br>상담사를 찾아드립니다!</p>
-                <div class="card-icon information-icon"><img src="/public/images/setting-icon.png" alt=""></div>
+
             </div>
-
-
-            <!-- 2번째 라인 -->
-            <div class="choose-second-card choose">
-                <div class="second-card">
-                    <div class="title-container">
-                        <h3 class="sub1">생필품 배급소</h3>
-                        <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow"></a>
-                    </div>
-                    <span class="description">주변 가장 가까운 생필품 배급소의<br>위치를 알려드립니다!</span>
-                </div>
-
-                <div class="second-card">
-                    <div class="title-container">
-                        <h3 class="sub2">음식 배급소</h3>
-                        <a href="#"><img src="/public/images/right-arrow.png" alt="" class="arrow"></a>
-                    </div>
-                    <span class="description">주변 가장 가까운 음식 배급소의<br>위치를 알려드립니다!</span>
-                </div>
-            </div>
-
         </div>
 
+        <!-- 지도 -->
+        <div id="map1" class="hidden">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d203038.04569091936!2d126.82387615202433!3d37.3313929113394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z66y066OMIOq4ieyLneyGjA!5e0!3m2!1sko!2skr!4v1731826610862!5m2!1sko!2skr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="map2" class="hidden">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d203038.04569091936!2d126.82387615202433!3d37.3313929113394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z66y066OMIOq4ieyLneyGjA!5e0!3m2!1sko!2skr!4v1731826610862!5m2!1sko!2skr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
     </main>
 
@@ -81,5 +97,19 @@
     </footer>
 
 </body>
+<script>
+    // 지도 컨트롤 함수
+    function showMap(mapIdToShow) {
+        const maps = document.querySelectorAll("#map1, #map2"); // 모든 지도 선택
+        maps.forEach(map => map.classList.add("hidden")); // 모든 지도 숨기기
+        document.querySelector('.all-container').classList.add("hidden")
+        document.getElementById(mapIdToShow).classList.remove("hidden"); // 특정 지도 보이기
+    }
+
+    // 이벤트 리스너 추가
+    document.querySelector(".ar1").addEventListener("click", () => showMap("map2"));
+    document.querySelector(".ar2").addEventListener("click", () => showMap("map1"));
+
+</script>
 
 </html>
