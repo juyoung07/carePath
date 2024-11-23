@@ -41,3 +41,8 @@
     margin-top: 20px;
 
 }
+
+.subs-question p {
+    white-space: nowrap;
+    margin-left: 22%;
+}
