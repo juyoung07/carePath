@@ -1,33 +1,46 @@
-iframe {
-    margin-top: 200px;
-    width: 100%;
-    max-width: 1080px;
-    height: 1420px;
-}
+ #map1 iframe,
+ #map2 iframe {
+     width: 1080px;
+     height: 1420px;
+     position: relative;
+     top: -1px;
+ }
 
-.back {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 100px;
-    background-color: #FF8433;
-    color: #fff;
-    border-radius: 20px;
-    font-size: 32px;
-    position: relative;
-    top: -200px;
-    margin-left: 70px;
-    cursor: pointer;
-}
+ .back {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 800px;
+     height: 100px;
+     background-color: #FF8433;
+     color: #fff;
+     border-radius: 20px;
+     font-size: 32px;
+     position: relative;
+     top: -200px;
+     margin-left: 70px;
+     cursor: pointer;
+ }
 
-footer {
-    width: 100%;
-    max-width: 1080px;
-    height: 700px;
+ footer {
+     width: 100%;
+     max-width: 1080px;
+     height: 700px;
 
-}
+ }
 
-.logos {
-    margin-top: -100px;
-}
+ .logos {
+     margin-top: -100px;
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ .q2 {
+     margin-left: 0;
+ }
+
+ .logos {
+     margin-top: 1px;
+ }
