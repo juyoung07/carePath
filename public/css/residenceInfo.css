@@ -1,0 +1,93 @@
+main {
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goBack-btn {
+    position: absolute;
+    top: 14%;
+    left: 80px;
+}
+
+.goBack-btn img {
+    width: 30px;
+    height: 52px;
+}
+
+.question-container {
+    display: flex;
+    margin: 152px 0 0 -10%;
+    gap: 50px;
+}
+
+.question-container img {
+    width: 232px;
+    height: 232px;
+    position: relative;
+    top: -35px;
+    right: -120px;
+}
+
+.question {
+    color: var(--Color-Black-1000, #020202);
+    font-size: 64px;
+    margin-left: 70px;
+}
+
+.question strong {
+    color: var(--Color-Primary-500, #FF6500);
+}
+
+
+
+.info1-list-container {
+    margin: 40px 0 138px 0;
+}
+
+span {
+    color: #000;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    color: var(--Color-Grey-400, #666);
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+
+}
+
+.row {
+    display: flex;
+    gap: 57px;
+}
+
+.target-title-container {
+    border-bottom: 1px solid #adaaaa;
+    border-top: 1px solid #adaaaa;
+}
+
+.target-container span {
+    margin-bottom: 30px;
+}
+
+.target-container,
+.standard-container {
+    margin-top: 40px;
+}
+
+.sub1 {
+    margin-bottom: 40px;
+}
+
+.procedure-container {
+    margin: 30px 0 0 0;
+}
