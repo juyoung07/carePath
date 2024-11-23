@@ -12,9 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (progressWidth >= 100) {
             clearInterval(interval); // 100%에 도달하면 반복 중지
 
-           
+            setTimeout(() => {
+                window.location.href = "/views/counselor/recomend.html";
+            }, 500);
 
-             
+
         }
     }, 105);
 });
