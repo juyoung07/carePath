@@ -103,3 +103,17 @@ main {
     width: 42px;
     height: 62px;
 }
+
+.box {
+    width: 800px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    opacity: 0.6;
+    background: var(--Color-Grey-900, #E5E5E5);
+    margin-bottom: 30px;
+}
+.all-box{
+    margin-top: 18px;
+    margin-bottom: 155px;
+}
