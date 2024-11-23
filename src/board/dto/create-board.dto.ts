@@ -1,6 +1,11 @@
 import { IsNotEmpty, IsString } from 'class-validator';
 
-export class CreateJournalDto {
+export class CreateBoardDto {
+  @IsNotEmpty()
+  @IsString()
   name: string;
+
+  @IsNotEmpty()
+  @IsString()
   content: string;
 }
