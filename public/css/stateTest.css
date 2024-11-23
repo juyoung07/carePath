@@ -35,7 +35,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin: 79px 0 50px 0;
+    margin: 9px 0 50px 0;
 }
 
 .checkList-container {
@@ -69,13 +69,37 @@ main {
     margin-top: 15px;
 }
 
-.checkList-container:hover {
+/* 기본 스타일 */
+.checkList-container {
     border-radius: 30px;
+    border: 1px solid var(--Color-Grey-800, #CCC);
+    background: var(--Color-Grey-white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.checkList-container .sub-title {
+    color: initial;
+    transition: color 0.3s ease;
+}
+
+/* 클릭 시 적용될 스타일 */
+.checkList-container.active {
     border: 1px solid var(--Color-Primary-500, #FF6500);
     background: var(--Color-Primary-opacity-10, rgba(255, 101, 0, 0.10));
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
-.checkList-container:hover .sub-title {
+.checkList-container.active .sub-title {
     color: var(--Color-Primary-500, #FF6500);
+}
+
+
+
+.submit img {
+    position: relative;
+    top: 400px;
+    left: 440px;
+    width: 42px;
+    height: 62px;
 }

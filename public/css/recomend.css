@@ -1,0 +1,146 @@
+main {
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goBack-btn {
+    position: absolute;
+    top: 14%;
+    left: 80px;
+}
+
+.goBack-btn img {
+    width: 30px;
+    height: 52px;
+}
+
+.question {
+    color: var(--Color-Black-1000, #020202);
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 145px;
+    margin: 145px 0 70px 0;
+}
+
+.question strong {
+    color: var(--Color-Primary-500, #FF6500);
+}
+
+/* 이미지 크기 조절 */
+.right-arrow {
+    width: 16px;
+    height: 30px;
+}
+
+.time img {
+    width: 24px;
+    height: 24px;
+}
+
+.counselor-img {
+    width: 100px;
+    height: 100px;
+}
+
+.counselor-list-container {
+    overflow-y: auto;
+    max-height: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.counselor-list-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.counselor-list-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.counselor-list-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.counselor-list {
+    width: 410px;
+    height: 257px;
+    border-radius: 30px;
+    border: 1px solid var(--Color-Grey-800, #CCC);
+    background: var(--Color-Grey-white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    padding: 30px 0 0 30px;
+
+}
+
+.not {
+    background: var(--Color-Secondary-600, #FABA38) !important;
+
+}
+
+.whether {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.whether div {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    padding: 10px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--Color-Primary-500, #FF6500);
+    color: #FFF;
+}
+
+.whether div:nth-child(2) {
+    border-radius: 20px;
+    border: 1px solid var(--Color-Primary-500, #FF6500);
+    color: var(--Color-Primary-500, #FF6500);
+    background-color: #FFF;
+    white-space: nowrap;
+}
+
+.counselor-info-container {
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    gap: 35px;
+}
+
+.title span {
+    color: var(--Color-Grey-100, #1A1A1A);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.center-name,
+.time>span {
+    color: var(--Color-Grey-400, #666);
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.center-name {
+    margin-top: 6px;
+}
+
+.time {
+    margin-top: 9px;
+    display: flex;
+    gap: 9px;
+}
