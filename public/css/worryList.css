@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .question-container {
