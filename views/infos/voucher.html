@@ -7,8 +7,10 @@
     <title>carePath</title>
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="/public/css/nav.css">
+    <link rel="stylesheet" href="/public/css/popup.css">
     <link rel="stylesheet" href="/public/css/title.css">
     <link rel="stylesheet" href="/public/css/worryList.css">
+    <link rel="stylesheet" href="/public/css/voucher.css">
     <link rel="stylesheet" href="/public/css/footer.css">
 
 <body>
@@ -27,6 +29,71 @@
         </div>
 
         <div class="worryList-container">
+
+        </div>
+
+        <div class="overlay hidden"></div>
+
+        <div class="popup-container hidden">
+            <img src="/public/images/x-icon.png" alt="" class="x-icon">
+
+            <div class="container1">
+                <div class="target row">
+                    <span>대상</span>
+                    <p>만 18세 이상 ~ 34세 이하</p>
+                </div>
+                <div class="etc row">
+                    <span>기타 자격</span>
+                    <p>경제적 취약 계층 또는 어려운 환경에<br>처해 있는 청년들</p>
+
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="container2">
+                <div class="organ row">
+                    <span>담당기관</span>
+                    <p>보건복지부, 지방자치단체</p>
+                </div>
+
+                <div class="progress row">
+                    <span>지원절차</span>
+                    <div class="description">
+                        <p>신청 방법 : 각 지역의 사회복지기관 또는</p>
+                        <p>온라인 신청 시스템을 통해 접수</p>
+                        <p>서류 제출 : 신분증, 소득 증명서, 주소 확인서</p>
+                        <p>등 필요한 서류 제출</p>
+                        <p>심사: 지원 자격 및 상황을 검토하여 지원 결정</p>
+                        <p>지원 지급 : 자립지원 바우처 형태로 비용 지원</p>
+                    </div>
+                </div>
+
+                <div class="location row">
+                    <span>위치</span>
+                    <div class="description">
+                        <p>서울: 서울특별시 보건복지부, 각 구청의</p>
+                        <p>사회복지과</p>
+                        <p>부산: 부산광역시청 사회복지과, 각 구청</p>
+                        <p>대구: 대구광역시청 사회복지과</p>
+                        <p>인천: 인천광역시청 사회복지과</p>
+
+                    </div>
+                </div>
+
+                <div class="phone-number row">
+                    <span>전화번호</span>
+                    <p>보건복지부: 129</p>
+                    <p>서울시 사회복지과</p>
+                </div>
+            </div>
+
+
+            <div class="contact-button">
+                <button onclick="printPage()">정보 출력하기</button>
+            </div>
+        </div>
+
+
+
         </div>
 
     </main>
