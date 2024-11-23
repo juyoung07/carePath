@@ -6,7 +6,7 @@ import {
 } from 'typeorm';
 
 @Entity()
-export class boardYouths {
+export class Board {
   @PrimaryGeneratedColumn()
   id: number;
 
