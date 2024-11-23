@@ -4,72 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/public/css/popup.css">
+    <title>carePath</title>
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="/public/css/nav.css">
+    <link rel="stylesheet" href="/public/css/title.css">
+    <link rel="stylesheet" href="/public/css/popup.css">
+    <link rel="stylesheet" href="/public/css/recomend.css">
     <link rel="stylesheet" href="/public/css/footer.css">
-</head>
 
 <body>
     <header>
         <p><a href="/views/index.html">carePath</a></p>
         <a href="/views/index.html"><img src="/public/images/home.png" alt=""></a>
     </header>
+
     <main>
-        <div class="popup-container">
+        <div class="goBack-btn">
+            <a href="#"><img src="/public/images/left-arrow.png" alt=""></a>
+        </div>
+
+        <div class="question">
+            <p>사용자님에게 적합한 <strong>상담사 리스트</strong>를</p>
+            <p>추천해 드릴게요!</p>
+        </div>
+
+        <div class="counselor-list-container" id="counselorList"></div>
+
+
+        <div class="overlay hidden"></div>
+
+        <div class="popup-container hidden">
             <img src="/public/images/x-icon.png" alt="" class="x-icon">
             <div class="profile">
                 <img src="/public/images/counselor-1.png" alt="프로필">
                 <div class="profile-infos">
-                    <p>오늘 진료 가능</p>
-                    <p>김혜진 상담사</p>
+                    <p></p>
+                    <p></p>
                     <p>미림 상담 센터 근무중</p>
-
                     <div class="button-container">
-                        <div class="button btn1">취업상담</div>
-                        <div class="button btn2">취업전문상담의</div>
+                        <div class="button btn1" data-counselor-id="1">취업상담</div>
+                        <div class="button btn2" data-counselor-id="1">취업전문상담의</div>
                     </div>
                 </div>
             </div>
-
-            <!-- 진료시간 -->
+            <div class="line"></div>
             <div class="time-info">
                 <div class="full-time row">
                     <span>진료시간</span>
-                    <p>00:00 ~ 23:40</p>
+                    <p></p>
                 </div>
                 <div class="break-time row">
                     <span>점심시간</span>
-                    <p>12:00 ~ 13:30</p>
+                    <p></p>
                 </div>
             </div>
-
-            <!-- 상담사 세부 정보 -->
+            <div class="line"></div>
             <div class="counselor-details">
                 <div class="detail">
                     <span>상담번호</span>
-                    <p>02-123-4567</p>
+                    <p></p>
                 </div>
                 <div class="detail">
                     <span>주소</span>
-                    <p>서울특별시 관악구 호암로 123,<br>미림빌딩 3층</p>
+                    <p></p>
                 </div>
                 <div class="detail">
                     <span>학력</span>
-                    <p>한양대 예술디자인 대학교<br>미술치료학과 석사</p>
+                    <p></p>
                 </div>
                 <div class="detail">
                     <span>자격증</span>
-                    <p>임상심리사1급<br>청소년 상담사2급</p>
+                    <p class="certification"></p>
                 </div>
             </div>
-
-            <!-- 정보 클릭 버튼 -->
             <div class="contact-button">
-                <button>정보 출력하기</button>
+                <button onclick="printPage()"></button>
             </div>
         </div>
+
+
     </main>
 
     <footer>
@@ -84,6 +97,9 @@
             <p>고객서비스센터 080-1234-1234 (월~금 : AM 09:00 ~ PM 06:00)</p>
         </div>
     </footer>
+
 </body>
+<script src="/public/js/counselorInfo.js"></script>
+<script src="/public/js/popup.js"></script>
 
 </html>
