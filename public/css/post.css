@@ -47,7 +47,7 @@ textarea {
 
 }
 
-button {
+.addBtn {
     display: flex;
     width: 800px;
     height: 100px;
