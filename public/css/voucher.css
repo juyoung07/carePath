@@ -1,0 +1,49 @@
+span,
+.popup-container p {
+    color: var(--Color-Grey-100, #1A1A1A);
+    font-size: 28px;
+    font-weight: 600;
+    width: 97px;
+}
+
+.row {
+    display: flex;
+    gap: 84px
+}
+
+.popup-container p {
+    color: var(--Color-Grey-400, #666) !important;
+    font-weight: 400;
+}
+
+.line {
+    text-align: center;
+    width: 700px;
+    height: 1.5px;
+    background: var(--Color-Grey-900, #E5E5E5);
+}
+
+.etc {
+    margin: 30px 0 43px 0;
+}
+
+.organ {
+    margin: 40px 0 30px 0;
+}
+
+.progress {
+    margin: 36px 0 30px 0;
+}
+
+.location {
+    margin-bottom: 30px;
+}
+
+.phone-number {
+    margin: 30px 0 120px 0;
+}
+
+button {
+    height: 80px;
+    font-size: 32px;
+}
