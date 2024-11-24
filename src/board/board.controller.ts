@@ -13,11 +13,8 @@ export class BoardController {
   }
 
   @Post()
-  create(@Body() createBoardDto: CreateBoardDto): Promise<Board> {
-    const board = new Board();
-    board.name = createBoardDto.name;
-    board.content = createBoardDto.content;
-    return this.boardService.create(board);
+  async create(@Body() createBoardDto: CreateBoardDto): Promise<Board> {
+    return this.boardService.create(createBoardDto); // 직접 Board 객체 생성 대신 service 사용
   }
   //   async create(createJournalDto: CreateJournalDto): Promise<BoardYouths> {
   //     const boardYouth = this.boardYouthsRepository.create(createJournalDto); // DTO를 직접 사용
