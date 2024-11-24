@@ -9,6 +9,7 @@ let showPostInfo = [
     { "id": "7", "userName": "행복한바람", "content": "모든 게 잘 될 거라는 믿음이 필요해요.다들 조금씩 성장하고 있다는 걸 잊지 말아요!" },
     { "id": "8", "userName": "맑은하늘속", "content": "지금은 힘들어도, 조금만 더 참고 견뎌봐요! 언젠가는 웃을 날이 올 거니까 :)" },
     { "id": "9", "userName": "빛나는새벽", "content": "어떤 상황이든 혼자서 다 해결할 필요는 없어요. 주변에 도움을 줄 수 있는 사람들이 많으니까, 필요할 때는 언제든지 손을 내밀어 보세요!" },
+    { "id": "10", "userName": "따뜻한별빛", "content": "지금은 너무 힘들어도, 조금만 더 기다리면 분명히 밝은 날이 올 거예요. " }
 
 ];
 
@@ -39,3 +40,10 @@ function loadAndRenderPosts() {
 
 
 window.onload = loadAndRenderPosts;
+
+
+//localStorage.removeItem('posts');
+
+
+
+
